@@ -1,0 +1,13 @@
+C:\Users\drake\Documents\dojo_projects\c_sharp\fundamentals\collections_practice\obj\Debug\netcoreapp3.1\collections_practice.csprojAssemblyReference.cache
+C:\Users\drake\Documents\dojo_projects\c_sharp\fundamentals\collections_practice\obj\Debug\netcoreapp3.1\collections_practice.AssemblyInfoInputs.cache
+C:\Users\drake\Documents\dojo_projects\c_sharp\fundamentals\collections_practice\obj\Debug\netcoreapp3.1\collections_practice.AssemblyInfo.cs
+C:\Users\drake\Documents\dojo_projects\c_sharp\fundamentals\collections_practice\obj\Debug\netcoreapp3.1\collections_practice.csproj.CoreCompileInputs.cache
+C:\Users\drake\Documents\dojo_projects\c_sharp\fundamentals\collections_practice\bin\Debug\netcoreapp3.1\collections_practice.exe
+C:\Users\drake\Documents\dojo_projects\c_sharp\fundamentals\collections_practice\bin\Debug\netcoreapp3.1\collections_practice.deps.json
+C:\Users\drake\Documents\dojo_projects\c_sharp\fundamentals\collections_practice\bin\Debug\netcoreapp3.1\collections_practice.runtimeconfig.json
+C:\Users\drake\Documents\dojo_projects\c_sharp\fundamentals\collections_practice\bin\Debug\netcoreapp3.1\collections_practice.runtimeconfig.dev.json
+C:\Users\drake\Documents\dojo_projects\c_sharp\fundamentals\collections_practice\bin\Debug\netcoreapp3.1\collections_practice.dll
+C:\Users\drake\Documents\dojo_projects\c_sharp\fundamentals\collections_practice\bin\Debug\netcoreapp3.1\collections_practice.pdb
+C:\Users\drake\Documents\dojo_projects\c_sharp\fundamentals\collections_practice\obj\Debug\netcoreapp3.1\collections_practice.dll
+C:\Users\drake\Documents\dojo_projects\c_sharp\fundamentals\collections_practice\obj\Debug\netcoreapp3.1\collections_practice.pdb
+C:\Users\drake\Documents\dojo_projects\c_sharp\fundamentals\collections_practice\obj\Debug\netcoreapp3.1\collections_practice.genruntimeconfig.cache
