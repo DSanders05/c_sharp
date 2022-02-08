@@ -1,0 +1,13 @@
+C:\Users\drake\Documents\dojo_projects\c_sharp\fundamentals\day02\classDemo\obj\Debug\netcoreapp3.1\classDemo.csprojAssemblyReference.cache
+C:\Users\drake\Documents\dojo_projects\c_sharp\fundamentals\day02\classDemo\obj\Debug\netcoreapp3.1\classDemo.AssemblyInfoInputs.cache
+C:\Users\drake\Documents\dojo_projects\c_sharp\fundamentals\day02\classDemo\obj\Debug\netcoreapp3.1\classDemo.AssemblyInfo.cs
+C:\Users\drake\Documents\dojo_projects\c_sharp\fundamentals\day02\classDemo\obj\Debug\netcoreapp3.1\classDemo.csproj.CoreCompileInputs.cache
+C:\Users\drake\Documents\dojo_projects\c_sharp\fundamentals\day02\classDemo\bin\Debug\netcoreapp3.1\classDemo.exe
+C:\Users\drake\Documents\dojo_projects\c_sharp\fundamentals\day02\classDemo\bin\Debug\netcoreapp3.1\classDemo.deps.json
+C:\Users\drake\Documents\dojo_projects\c_sharp\fundamentals\day02\classDemo\bin\Debug\netcoreapp3.1\classDemo.runtimeconfig.json
+C:\Users\drake\Documents\dojo_projects\c_sharp\fundamentals\day02\classDemo\bin\Debug\netcoreapp3.1\classDemo.runtimeconfig.dev.json
+C:\Users\drake\Documents\dojo_projects\c_sharp\fundamentals\day02\classDemo\bin\Debug\netcoreapp3.1\classDemo.dll
+C:\Users\drake\Documents\dojo_projects\c_sharp\fundamentals\day02\classDemo\bin\Debug\netcoreapp3.1\classDemo.pdb
+C:\Users\drake\Documents\dojo_projects\c_sharp\fundamentals\day02\classDemo\obj\Debug\netcoreapp3.1\classDemo.dll
+C:\Users\drake\Documents\dojo_projects\c_sharp\fundamentals\day02\classDemo\obj\Debug\netcoreapp3.1\classDemo.pdb
+C:\Users\drake\Documents\dojo_projects\c_sharp\fundamentals\day02\classDemo\obj\Debug\netcoreapp3.1\classDemo.genruntimeconfig.cache
