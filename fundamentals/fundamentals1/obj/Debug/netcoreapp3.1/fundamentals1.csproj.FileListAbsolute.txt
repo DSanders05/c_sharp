@@ -1,0 +1,13 @@
+C:\Users\drake\Documents\dojo_projects\c_sharp\fundamentals\fundamentals1\bin\Debug\netcoreapp3.1\fundamentals1.exe
+C:\Users\drake\Documents\dojo_projects\c_sharp\fundamentals\fundamentals1\bin\Debug\netcoreapp3.1\fundamentals1.deps.json
+C:\Users\drake\Documents\dojo_projects\c_sharp\fundamentals\fundamentals1\bin\Debug\netcoreapp3.1\fundamentals1.runtimeconfig.json
+C:\Users\drake\Documents\dojo_projects\c_sharp\fundamentals\fundamentals1\bin\Debug\netcoreapp3.1\fundamentals1.runtimeconfig.dev.json
+C:\Users\drake\Documents\dojo_projects\c_sharp\fundamentals\fundamentals1\bin\Debug\netcoreapp3.1\fundamentals1.dll
+C:\Users\drake\Documents\dojo_projects\c_sharp\fundamentals\fundamentals1\bin\Debug\netcoreapp3.1\fundamentals1.pdb
+C:\Users\drake\Documents\dojo_projects\c_sharp\fundamentals\fundamentals1\obj\Debug\netcoreapp3.1\fundamentals1.csprojAssemblyReference.cache
+C:\Users\drake\Documents\dojo_projects\c_sharp\fundamentals\fundamentals1\obj\Debug\netcoreapp3.1\fundamentals1.AssemblyInfoInputs.cache
+C:\Users\drake\Documents\dojo_projects\c_sharp\fundamentals\fundamentals1\obj\Debug\netcoreapp3.1\fundamentals1.AssemblyInfo.cs
+C:\Users\drake\Documents\dojo_projects\c_sharp\fundamentals\fundamentals1\obj\Debug\netcoreapp3.1\fundamentals1.csproj.CoreCompileInputs.cache
+C:\Users\drake\Documents\dojo_projects\c_sharp\fundamentals\fundamentals1\obj\Debug\netcoreapp3.1\fundamentals1.dll
+C:\Users\drake\Documents\dojo_projects\c_sharp\fundamentals\fundamentals1\obj\Debug\netcoreapp3.1\fundamentals1.pdb
+C:\Users\drake\Documents\dojo_projects\c_sharp\fundamentals\fundamentals1\obj\Debug\netcoreapp3.1\fundamentals1.genruntimeconfig.cache
