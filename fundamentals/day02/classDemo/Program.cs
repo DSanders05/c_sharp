@@ -15,6 +15,12 @@ namespace classDemo
         
             dino.makeNoise();
             liger.makeNoise();
+
+            Mythical phoenix = new Mythical("Phoenix", "Fire", 100000, 120.6, "Egypt", true);
+
+            Console.WriteLine(phoenix.species);
+
+            phoenix.eat();
         }
         
     }

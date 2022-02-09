@@ -34,5 +34,12 @@ namespace classDemo
         {
             Console.WriteLine("Insert animal noise here");
         }
+
+        public virtual void eat()
+        {
+            Console.WriteLine("Munch mucnh");
+            this.weight+=0.3;
+            Console.WriteLine($"{species} ate some food and now weighs {weight} lbs");
+        }
     }
 }

@@ -2,3 +2,12 @@ C:\Users\drake\Documents\dojo_projects\c_sharp\fundamentals\puzzles\obj\Debug\ne
 C:\Users\drake\Documents\dojo_projects\c_sharp\fundamentals\puzzles\obj\Debug\netcoreapp3.1\puzzles.AssemblyInfoInputs.cache
 C:\Users\drake\Documents\dojo_projects\c_sharp\fundamentals\puzzles\obj\Debug\netcoreapp3.1\puzzles.AssemblyInfo.cs
 C:\Users\drake\Documents\dojo_projects\c_sharp\fundamentals\puzzles\obj\Debug\netcoreapp3.1\puzzles.csproj.CoreCompileInputs.cache
+C:\Users\drake\Documents\dojo_projects\c_sharp\fundamentals\puzzles\bin\Debug\netcoreapp3.1\puzzles.exe
+C:\Users\drake\Documents\dojo_projects\c_sharp\fundamentals\puzzles\bin\Debug\netcoreapp3.1\puzzles.deps.json
+C:\Users\drake\Documents\dojo_projects\c_sharp\fundamentals\puzzles\bin\Debug\netcoreapp3.1\puzzles.runtimeconfig.json
+C:\Users\drake\Documents\dojo_projects\c_sharp\fundamentals\puzzles\bin\Debug\netcoreapp3.1\puzzles.runtimeconfig.dev.json
+C:\Users\drake\Documents\dojo_projects\c_sharp\fundamentals\puzzles\bin\Debug\netcoreapp3.1\puzzles.dll
+C:\Users\drake\Documents\dojo_projects\c_sharp\fundamentals\puzzles\bin\Debug\netcoreapp3.1\puzzles.pdb
+C:\Users\drake\Documents\dojo_projects\c_sharp\fundamentals\puzzles\obj\Debug\netcoreapp3.1\puzzles.dll
+C:\Users\drake\Documents\dojo_projects\c_sharp\fundamentals\puzzles\obj\Debug\netcoreapp3.1\puzzles.pdb
+C:\Users\drake\Documents\dojo_projects\c_sharp\fundamentals\puzzles\obj\Debug\netcoreapp3.1\puzzles.genruntimeconfig.cache

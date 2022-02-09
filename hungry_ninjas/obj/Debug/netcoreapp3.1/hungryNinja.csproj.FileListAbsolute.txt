@@ -1,0 +1,4 @@
+C:\Users\drake\Documents\dojo_projects\c_sharp\hungry_ninjas\obj\Debug\netcoreapp3.1\hungryNinja.csprojAssemblyReference.cache
+C:\Users\drake\Documents\dojo_projects\c_sharp\hungry_ninjas\obj\Debug\netcoreapp3.1\hungryNinja.AssemblyInfoInputs.cache
+C:\Users\drake\Documents\dojo_projects\c_sharp\hungry_ninjas\obj\Debug\netcoreapp3.1\hungryNinja.AssemblyInfo.cs
+C:\Users\drake\Documents\dojo_projects\c_sharp\hungry_ninjas\obj\Debug\netcoreapp3.1\hungryNinja.csproj.CoreCompileInputs.cache
