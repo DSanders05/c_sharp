@@ -1,0 +1,13 @@
+C:\Users\drake\Documents\dojo_projects\c_sharp\card_deck\deck_of_cards\bin\Debug\netcoreapp3.1\deck_of_cards.exe
+C:\Users\drake\Documents\dojo_projects\c_sharp\card_deck\deck_of_cards\bin\Debug\netcoreapp3.1\deck_of_cards.deps.json
+C:\Users\drake\Documents\dojo_projects\c_sharp\card_deck\deck_of_cards\bin\Debug\netcoreapp3.1\deck_of_cards.runtimeconfig.json
+C:\Users\drake\Documents\dojo_projects\c_sharp\card_deck\deck_of_cards\bin\Debug\netcoreapp3.1\deck_of_cards.runtimeconfig.dev.json
+C:\Users\drake\Documents\dojo_projects\c_sharp\card_deck\deck_of_cards\bin\Debug\netcoreapp3.1\deck_of_cards.dll
+C:\Users\drake\Documents\dojo_projects\c_sharp\card_deck\deck_of_cards\bin\Debug\netcoreapp3.1\deck_of_cards.pdb
+C:\Users\drake\Documents\dojo_projects\c_sharp\card_deck\deck_of_cards\obj\Debug\netcoreapp3.1\deck_of_cards.csprojAssemblyReference.cache
+C:\Users\drake\Documents\dojo_projects\c_sharp\card_deck\deck_of_cards\obj\Debug\netcoreapp3.1\deck_of_cards.AssemblyInfoInputs.cache
+C:\Users\drake\Documents\dojo_projects\c_sharp\card_deck\deck_of_cards\obj\Debug\netcoreapp3.1\deck_of_cards.AssemblyInfo.cs
+C:\Users\drake\Documents\dojo_projects\c_sharp\card_deck\deck_of_cards\obj\Debug\netcoreapp3.1\deck_of_cards.csproj.CoreCompileInputs.cache
+C:\Users\drake\Documents\dojo_projects\c_sharp\card_deck\deck_of_cards\obj\Debug\netcoreapp3.1\deck_of_cards.dll
+C:\Users\drake\Documents\dojo_projects\c_sharp\card_deck\deck_of_cards\obj\Debug\netcoreapp3.1\deck_of_cards.pdb
+C:\Users\drake\Documents\dojo_projects\c_sharp\card_deck\deck_of_cards\obj\Debug\netcoreapp3.1\deck_of_cards.genruntimeconfig.cache
