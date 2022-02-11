@@ -4,36 +4,34 @@ namespace Human
 {
     public class Human
     {
-        public string name;
-        public int strength;
-        public int intelligence;
-        public int dexterity;
+        public string Name;
+        public int Strength;
+        public int Intelligence;
+        public int Dexterity;
         public int health;
-
-
 
         public Human(string name, int str, int intel, int dex, int hPoints)
         {
-            this.name = name;
-            strength = str;
-            intelligence = intel;
-            dexterity = dex;
+            Name = name;
+            Strength = str;
+            Intelligence = intel;
+            Dexterity = dex;
             health = hPoints;
         }
 
         public Human(string name)
         {
-            this.name = name;
-            strength=3;
-            intelligence=3;
-            dexterity=3;
+            Name = name;
+            Strength=3;
+            Intelligence=3;
+            Dexterity=3;
             health=100;
         }
 
-        public void attack(object person)
+        public virtual void attack(Human person)
         {
-            health = health-(strength*5);
-            Console.WriteLine($"{name}\'s health remaining: {health}");
+            health = health-(Strength*5);
+            Console.WriteLine($"{Name}\'s health remaining: {health}");
         }
     }
 }
