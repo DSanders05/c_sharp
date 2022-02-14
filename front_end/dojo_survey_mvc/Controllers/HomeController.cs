@@ -33,8 +33,13 @@ namespace dojo_survey_mvc.Controllers
         [HttpPost("dojoSurvey")]
         public IActionResult dojoSurvey(Survey newSurvey)
         {
+            if(ModelState.IsValid){
             allSurveys.Add(newSurvey);
             return RedirectToAction("showSurvey");
+            }
+            else{
+                return View("Index");
+            }
         }
 
         [HttpGet("allSurveys")]

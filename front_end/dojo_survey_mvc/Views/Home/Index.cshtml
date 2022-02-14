@@ -2,24 +2,30 @@
     ViewData["Title"] = "Home Page";
 }
 
+@model Survey
+
 <div class="text-center">
     <h1>Dojo Survey</h1>
     <form action="dojoSurvey" method="post">
         <div class="form-group">
             <label for="name">Enter Your Name:</label>
-            <input type="text" name="name" class="form-control">
+            <span asp-validation-for="name" class="text-danger" ></span>
+            <input asp-for="name" class="form-control">
         </div>
         <div class="form-group">
             <label for="location">Enter Dojo Location:</label>
-            <input type="text" name="location" class="form-control">
+            <span asp-validation-for="location" class="text-danger" ></span>
+            <input asp-for="location" class="form-control">
         </div>
         <div class="form-group">
             <label for="language">Enter Favorite Language:</label>
-            <input type="text" name="language" class="form-control">
+            <span asp-validation-for="language" class="text-danger" ></span>
+            <input asp-for="language" class="form-control">
         </div>
         <div class="form-group">
             <label for="commentSection">Comment (optional):</label>
-            <textarea name="commentSection" id="" cols="30" rows="3" class="form-control"></textarea>
+            <span asp-validation-for="commentSection" class="text-danger" ></span>
+            <textarea asp-for="commentSection" id="" cols="30" rows="3" class="form-control"></textarea>
         </div>
         <input type="submit" value="Submit" class="btn btn-success" class="form-control">
     </form>
