@@ -1,0 +1,23 @@
+@model List<Survey>
+
+
+    <div class="container">
+        <h1>Submitted Info</h1>
+        <table class="table table-striped">
+            <tr>
+                <th>Name</th>
+                <th>Dojo Location</th>
+                <th>Favorite Language</th>
+                <th>Comments</th>
+            </tr>
+            @{
+                foreach(Survey result in Model)
+                {
+                    <td>@result.name</td>
+                    <td>@result.location</td>
+                    <td>@result.language</td>
+                    <td>@result.commentSection</td>
+                }
+            }
+        </table>
+    </div>

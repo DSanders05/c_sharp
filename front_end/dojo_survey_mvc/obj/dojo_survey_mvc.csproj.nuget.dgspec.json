@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\drake\\Documents\\dojo_projects\\csharp\\front_end\\dojo_survey\\dojo_survey.csproj": {}
+    "C:\\Users\\drake\\Documents\\dojo_projects\\csharp\\front_end\\dojo_survey_mvc\\dojo_survey_mvc.csproj": {}
   },
   "projects": {
-    "C:\\Users\\drake\\Documents\\dojo_projects\\csharp\\front_end\\dojo_survey\\dojo_survey.csproj": {
+    "C:\\Users\\drake\\Documents\\dojo_projects\\csharp\\front_end\\dojo_survey_mvc\\dojo_survey_mvc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\drake\\Documents\\dojo_projects\\csharp\\front_end\\dojo_survey\\dojo_survey.csproj",
-        "projectName": "dojo_survey",
-        "projectPath": "C:\\Users\\drake\\Documents\\dojo_projects\\csharp\\front_end\\dojo_survey\\dojo_survey.csproj",
+        "projectUniqueName": "C:\\Users\\drake\\Documents\\dojo_projects\\csharp\\front_end\\dojo_survey_mvc\\dojo_survey_mvc.csproj",
+        "projectName": "dojo_survey_mvc",
+        "projectPath": "C:\\Users\\drake\\Documents\\dojo_projects\\csharp\\front_end\\dojo_survey_mvc\\dojo_survey_mvc.csproj",
         "packagesPath": "C:\\Users\\drake\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\drake\\Documents\\dojo_projects\\csharp\\front_end\\dojo_survey\\obj\\",
+        "outputPath": "C:\\Users\\drake\\Documents\\dojo_projects\\csharp\\front_end\\dojo_survey_mvc\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\drake\\AppData\\Roaming\\NuGet\\NuGet.Config"

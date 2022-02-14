@@ -1,0 +1,26 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1>Rock, Paper, Scissors</h1>
+    <div class="d-flex justify-content-end">
+    <a href="#" class="btn btn-danger">Reset</a>
+    </div>
+    <div class="row">
+        <div class="col">
+            <h3>PLayer 1</h3>
+            <img src="@ViewBag.playerChoice" alt="move">
+            <div class="options">
+                <a href="/player/rock" class="btn btn-primary">Rock</a>
+                <a href="/player/paper" class="btn btn-warning">Paper</a>
+                <a href="/player/scissors" class="btn btn-success">Scissors</a>
+            </div>
+        </div>
+        <div class="col">
+            <h3>Computer</h3>
+            <img src="~/images/r-rock.png" alt="move">
+        </div>
+    </div>
+    <h2 class="m-3">Wins: 2 | Draws: 1 | Losses: 3</h2>
+</div>
