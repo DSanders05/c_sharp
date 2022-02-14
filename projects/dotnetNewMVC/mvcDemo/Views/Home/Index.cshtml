@@ -1,0 +1,58 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@model List<Pet>
+
+<div class="text-center">
+    <h1>Tell me about your pets</h1>
+    <form action="addPet" method="post">
+        <div class="form-group">
+            <label for="petName">Pet Name:</label>
+            <input asp-for="petName" class="form-control">
+            <span asp-validation-for="petName" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label for="petType" >Pet Type:</label>
+            <input asp-for="petType" class="form-control">
+            <span asp-validation-for="petType" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label for="petAge">Pet Age:</label>
+            <input asp-for="petAge" class="form-control">
+            <span asp-validation-for="petAge" class="text-danger"></span>
+
+        </div>
+        <div class="form-group">
+            <label for="petColor">Pet Color:</label>
+            <input asp-for="petColor" class="form-control">
+            <span asp-validation-for="petColor" class="text-danger"></span>
+
+        </div>
+        <div class="form-group">
+            <input type="submit" value="submit" class="form-control btn btn-success" >
+            <span asp-validation-for="petName" class="text-danger"></span>
+
+        </div>
+    </form>
+
+    <table class="table table-striped">
+        <tr>
+            <th>Name</th>
+            <th>Type</th>
+            <th>Age</th>
+            <th>Color</th>
+        </tr>
+        @{
+            foreach(Pet pet in Model)
+            {
+                <tr>
+                    <td>@pet.petName</td>
+                    <td>@pet.petType</td>
+                    <td>@pet.petAge</td>
+                    <td>@pet.petColor</td>
+                </tr>
+            }
+        }
+    </table>
+</div>
