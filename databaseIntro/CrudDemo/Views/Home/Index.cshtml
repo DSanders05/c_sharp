@@ -1,0 +1,55 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@model Icecream
+
+<div class="text-center">
+    <h1>Add your favorite ice cream</h1>
+    <form action="/process" method="post">
+        <div class="form-group">
+            <label for="Flavor">Flavor</label>
+            <input asp-for="Flavor">
+            <span asp-validation-for="Flavor" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label for="Topping">Topping</label>
+            <input asp-for="Topping">
+            <span asp-validation-for="Topping" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label for="hasCherry">Has Cherry</label>
+            <input asp-for="hasCherry">
+            <span asp-validation-for="hasCherry" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label for="Container">Container</label>
+            <input asp-for="Container">
+            <span asp-validation-for="Container" class="text-danger"></span>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit Icecream</button>
+    </form>
+    <hr>
+    <h3>All submitted Icecream</h3>
+    <table class="table table-striped">
+        <tr>
+            <th>Flavor</th>
+            <th>Topping</th>
+            <th>Has Cherry?</th>
+            <th>Container</th>
+            <th>Actions</th>
+        </tr>
+        @{
+            foreach(Icecream i in ViewBag.allIcecreams)
+            {
+                <tr>
+                    <td>@i.Flavor</td>
+                    <td>@i.Topping</td>
+                    <td>@i.hasCherry</td>
+                    <td>@i.Container</td>
+                    <td><a href="/delete/@i.IcecreamId">Delete</a> | <a href="/edit/@i.IcecreamId">Edit</a></td>
+                </tr>
+            }
+        }
+    </table>
+</div>
