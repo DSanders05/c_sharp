@@ -24,7 +24,7 @@ namespace chefs_dishes.Controllers
 
         public IActionResult Index()
         {
-            List<Chef> allChefs = _context.Chefs.ToList();
+            List<Chef> allChefs = _context.Chefs.Include(c=>c.Dishes).ToList();
             ViewBag.allChefs = allChefs;
             return View();
         }
