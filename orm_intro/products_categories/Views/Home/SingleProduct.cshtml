@@ -1,0 +1,32 @@
+@model Association
+
+<h1 class="text-center">@ViewBag.singleProd.Name</h1>
+<a href="/">Home</a>
+<hr>
+<div class="container">
+    <div class="row">
+        <div class="col text-center">
+            <h3>Categories:</h3>
+            <p>Categories Go Here</p>
+        </div>
+        <div class="col text-center">
+            <h3>Add Category</h3>
+            <form action="addCategoryToProduct" method="post">
+                <div class="form-group">
+                    <select asp-for="CategoryId" class="form-control">
+                        @{
+                            foreach(Category c in ViewBag.allCategories)
+                            {
+                                <option value="@c.CategoryId">@c.Name</option>
+                            }
+                        }
+                    </select>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Add To Category" class="btn btn-success">
+                    <input type="hidden" name="ProductId" value="@ViewBag.singleProd.ProductId">
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

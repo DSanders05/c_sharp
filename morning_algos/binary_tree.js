@@ -50,7 +50,7 @@ class BST {
     addNode(value){
         let node = new BNode(value);
         // First we check if the tree is empty
-        if(this.isEmpty){
+        if(this.isEmpty()){
             // If we DON'T have a root
             // Our new value IS our root
             this.root = node;
@@ -86,6 +86,15 @@ class BST {
             }
         }
     }
+    printTwo(node = this.root, spaceCnt = 0, spaceIncr = 5) {
+        if (!node) {
+            return;
+        }
+        spaceCnt += spaceIncr;
+        this.printTwo(node.right, spaceCnt);
+        console.log(" ".repeat(spaceCnt < spaceIncr ? 0 : spaceCnt - spaceIncr) + `${node.value}`);
+        this.printTwo(node.left, spaceCnt);
+    }
 
     // Returns true or false whether a given value is present in my BST
     contains(val){
@@ -107,7 +116,34 @@ class BST {
             }
         }
     }
+
+    sizeCounter(node = this.root){
+        if(node == null){
+            return 0;
+        } else {
+            return 1 + this.sizeCounter(node.left) + this.sizeCounter(node.right)
+        }
+    }
+
+    evenTree(node=this.root){
+        if(!node){
+            return false;
+        } else {
+            if(!node.left && !node.right){
+                return true;
+            } else if(node.left && node.right) {
+                return this.evenTree(node.left) && this.evenTree(node.right);
+            } else {
+                return false;
+            }   
+        }
+    }
 }
 
-let BST = new BST();
-BST.add();
+let newBST = new BST();
+
+newBST.addNode(8);
+newBST.addNode(10);
+newBST.addNode(6);
+
+console.log(newBST.evenTree());

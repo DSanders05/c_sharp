@@ -1,0 +1,34 @@
+using System;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.Collections.Generic;
+
+
+namespace wedding_planner.Models
+{
+    public class User
+    {
+        [Key]
+        public int UserId{get;set;}
+        [Required]
+        public string FirstName {get;set;}
+        [Required] 
+        public string LastName {get;set;}
+        [Required]
+        [EmailAddress]
+        public string Email {get;set;}
+        [Required]
+        [DataType(DataType.Password)]
+        public string Password {get;set;}
+        public List<Association> Weddings {get;set;}
+
+        public DateTime CreatedAt {get;set;} = DateTime.Now;
+        public DateTime UpdatedAt {get;set;} = DateTime.Now;
+
+
+        [Required]
+        [NotMapped]
+        [DataType(DataType.Password)]
+        public string ConfirmPass {get;set;}
+    }
+}

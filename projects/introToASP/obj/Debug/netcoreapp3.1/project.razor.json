@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\drake\\Documents\\dojo_projects\\c_sharp\\projects\\introToASP\\introToASP.csproj",
+  "FilePath": "c:\\Users\\drake\\Documents\\dojo_projects\\cSharp\\projects\\introToASP\\introToASP.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -14402,7 +14402,7 @@
   "RootNamespace": "introToASP",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\drake\\Documents\\dojo_projects\\c_sharp\\projects\\introToASP\\Views\\First\\Index.cshtml",
+      "FilePath": "c:\\Users\\drake\\Documents\\dojo_projects\\cSharp\\projects\\introToASP\\Views\\First\\Index.cshtml",
       "TargetPath": "Views\\First\\Index.cshtml",
       "FileKind": "mvc"
     }
