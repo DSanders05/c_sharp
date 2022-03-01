@@ -7,6 +7,7 @@ dotnet add package Microsoft.EntityFrameworkCore.Design --version 3.1.5
 For MyContext File:
 
 using Microsoft.EntityFrameworkCore;
+
 namespace Namespace.Models
 { 
     // the MyContext class representing a session with our MySQL 
