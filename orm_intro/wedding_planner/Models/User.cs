@@ -25,9 +25,8 @@ namespace wedding_planner.Models
         public DateTime CreatedAt {get;set;} = DateTime.Now;
         public DateTime UpdatedAt {get;set;} = DateTime.Now;
 
-
-        [Required]
         [NotMapped]
+        [Compare("Password")]
         [DataType(DataType.Password)]
         public string ConfirmPass {get;set;}
     }

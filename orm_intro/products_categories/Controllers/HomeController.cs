@@ -69,38 +69,39 @@ namespace products_categories.Controllers
             }
         }
 
-        [HttpGet("products/{pid}")]
+        [HttpPost("addProductToCategory")]
+        public IActionResult addProductToCategory(Association newAssn)
+        {
+            //from single category page
+            _context.Associations.Add(newAssn);
+            _context.SaveChanges();
+            return Redirect($"category/get/{newAssn.CategoryId}");
+        }
+
+        [HttpPost("addCategoryToProduct")]
+        public IActionResult addCategoryToProduct(Association newAssn)
+        {
+            //from single product page
+            _context.Associations.Add(newAssn);
+            _context.SaveChanges();
+            return Redirect($"products/get/{newAssn.ProductId}");
+        }
+
+        [HttpGet("products/get/{pid}")]
         public IActionResult SingleProduct(int pid)
         {
+            ViewBag.addedCategories = _context.Categories.Include(s=>s.Products).ThenInclude(d=>d.Product).FirstOrDefault(a=>a.CategoryId == pid);
             ViewBag.singleProd = _context.Products.FirstOrDefault(b=>b.ProductId== pid);
             ViewBag.allCategories = _context.Categories.OrderBy(d=>d.Name).ToList();
             return View();
         }
 
-        [HttpPost("addCategoryToProduct")]
-        public IActionResult AddCatToProd(Association newAssn)
-        {
-                _context.Associations.Add(newAssn);
-                _context.SaveChanges();
-                return Redirect($"products/{newAssn.CategoryId}");
-        }
-
-
-        [HttpGet("category/{cid}")]
+        [HttpGet("category/get/{cid}")]
         public IActionResult SingleCategory(int cid)
         {
             ViewBag.singleCat = _context.Categories.FirstOrDefault(b=>b.CategoryId== cid);
             ViewBag.allProducts = _context.Products.OrderBy(d=>d.Name).ToList();
-            return View();
-        }
-
-        [HttpPost("newRel")]
-        public IActionResult AddProductToCategory(Association newAssociation)
-        {
-            Console.WriteLine(newAssociation.CategoryId);
-            // _context.Associations.Add(newAssociation);
-            // _context.SaveChanges();
-            return Redirect($"category/1");
+            return View("SingleCategory");
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

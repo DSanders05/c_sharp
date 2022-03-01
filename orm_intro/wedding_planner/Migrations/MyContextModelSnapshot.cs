@@ -90,6 +90,9 @@ namespace wedding_planner.Migrations
                     b.Property<DateTime>("UpdatedAt")
                         .HasColumnType("datetime(6)");
 
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
                     b.Property<string>("WedderOne")
                         .IsRequired()
                         .HasColumnType("longtext CHARACTER SET utf8mb4");
@@ -99,6 +102,8 @@ namespace wedding_planner.Migrations
                         .HasColumnType("longtext CHARACTER SET utf8mb4");
 
                     b.HasKey("WeddingId");
+
+                    b.HasIndex("UserId");
 
                     b.ToTable("Weddings");
                 });
@@ -114,6 +119,15 @@ namespace wedding_planner.Migrations
                     b.HasOne("wedding_planner.Models.Wedding", "Weddings")
                         .WithMany("Attendees")
                         .HasForeignKey("WeddingId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("wedding_planner.Models.Wedding", b =>
+                {
+                    b.HasOne("wedding_planner.Models.User", "Creator")
+                        .WithMany()
+                        .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });

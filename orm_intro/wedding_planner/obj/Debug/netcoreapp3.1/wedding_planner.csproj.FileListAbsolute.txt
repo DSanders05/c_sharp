@@ -58,3 +58,6 @@ C:\Users\drake\Documents\dojo_projects\cSharp\orm_intro\wedding_planner\obj\Debu
 C:\Users\drake\Documents\dojo_projects\cSharp\orm_intro\wedding_planner\obj\Debug\netcoreapp3.1\wedding_planner.dll
 C:\Users\drake\Documents\dojo_projects\cSharp\orm_intro\wedding_planner\obj\Debug\netcoreapp3.1\wedding_planner.pdb
 C:\Users\drake\Documents\dojo_projects\cSharp\orm_intro\wedding_planner\obj\Debug\netcoreapp3.1\wedding_planner.genruntimeconfig.cache
+C:\Users\drake\Documents\dojo_projects\cSharp\orm_intro\wedding_planner\obj\Debug\netcoreapp3.1\Razor\Views\Home\Dashboard.cshtml.g.cs
+C:\Users\drake\Documents\dojo_projects\cSharp\orm_intro\wedding_planner\obj\Debug\netcoreapp3.1\Razor\Views\Home\NewWedding.cshtml.g.cs
+C:\Users\drake\Documents\dojo_projects\cSharp\orm_intro\wedding_planner\obj\Debug\netcoreapp3.1\Razor\Views\Home\ViewWedding.cshtml.g.cs

@@ -32,6 +32,7 @@ namespace wedding_planner.Migrations
                 {
                     WeddingId = table.Column<int>(nullable: false)
                         .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
+                    UserId = table.Column<int>(nullable: false),
                     WedderOne = table.Column<string>(nullable: false),
                     WedderTwo = table.Column<string>(nullable: false),
                     Address = table.Column<string>(nullable: false),
@@ -42,6 +43,12 @@ namespace wedding_planner.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Weddings", x => x.WeddingId);
+                    table.ForeignKey(
+                        name: "FK_Weddings_Users_UserId",
+                        column: x => x.UserId,
+                        principalTable: "Users",
+                        principalColumn: "UserId",
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateTable(
@@ -79,6 +86,11 @@ namespace wedding_planner.Migrations
                 name: "IX_Associations_WeddingId",
                 table: "Associations",
                 column: "WeddingId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Weddings_UserId",
+                table: "Weddings",
+                column: "UserId");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
@@ -87,10 +99,10 @@ namespace wedding_planner.Migrations
                 name: "Associations");
 
             migrationBuilder.DropTable(
-                name: "Users");
+                name: "Weddings");
 
             migrationBuilder.DropTable(
-                name: "Weddings");
+                name: "Users");
         }
     }
 }

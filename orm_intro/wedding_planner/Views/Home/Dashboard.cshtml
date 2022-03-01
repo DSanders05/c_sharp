@@ -1,0 +1,36 @@
+<a href="/logout">Logout</a>
+<h1>Welcome to the Wedding Planner</h1>
+<table class="table table-striped">
+    <tr>
+        <th>Wedding</th>
+        <th>Date</th>
+        <th>Guest</th>
+        <th>Action</th>
+    </tr>
+    @{
+        foreach(Wedding w in ViewBag.allWeddings)
+        {
+            <tr>
+                <td><a href="/viewWedding/@w.WeddingId">@w.WedderOne & @w.WedderTwo</a></td>
+                <td>@w.Date.ToShortDateString()</td>
+                <td>@w.Attendees.Count</td>
+                @{
+                    if(w.UserId == ViewBag.userInfo)
+                {
+                    <td><a href="/delete/@w.WeddingId">Delete</a></td>
+                }
+                else if (w.Attendees.Any(r => r.UserId == @ViewBag.userInfo))
+                {
+                    <td><a href="/uninvite/@w.WeddingId/@ViewBag.userInfo">UN-RSVP</a></td>
+                }
+                else
+                {
+                    <td><a href="/rsvp/@w.WeddingId/@ViewBag.userInfo">RSVP</a></td>
+                
+                }
+                }
+            </tr>
+        }
+}
+</table>
+<a href="/NewWedding">Create New Wedding</a>

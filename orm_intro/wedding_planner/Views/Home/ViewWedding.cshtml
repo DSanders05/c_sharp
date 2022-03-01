@@ -1,0 +1,24 @@
+<a href="/Dashboard">Dashboard</a>
+<a href="/logout">Logout</a>
+
+<h1>@ViewBag.wedding.WedderOne and @ViewBag.wedding.WedderTwo's Wedding</h1>  
+
+<div class="container">
+    <h6>Wedding Date: @ViewBag.wedding.Date</h6>
+    <table class="table table-striped">
+        <tr>
+            <th>Guests:</th>
+        </tr>
+        @{
+            foreach(Association u in ViewBag.wedding.Attendees)
+            {
+                <tr>
+                    <td>
+                        <p>@u.Attendee.FirstName</p>
+                    </td>
+                </tr>
+            }
+        }
+        
+    </table>
+</div>

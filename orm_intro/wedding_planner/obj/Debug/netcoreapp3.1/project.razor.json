@@ -14407,6 +14407,16 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\drake\\Documents\\dojo_projects\\cSharp\\orm_intro\\wedding_planner\\Views\\Home\\ViewWedding.cshtml",
+      "TargetPath": "Views\\Home\\ViewWedding.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\drake\\Documents\\dojo_projects\\cSharp\\orm_intro\\wedding_planner\\Views\\Home\\Dashboard.cshtml",
+      "TargetPath": "Views\\Home\\Dashboard.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\drake\\Documents\\dojo_projects\\cSharp\\orm_intro\\wedding_planner\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
@@ -14424,6 +14434,11 @@
     {
       "FilePath": "c:\\Users\\drake\\Documents\\dojo_projects\\cSharp\\orm_intro\\wedding_planner\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\drake\\Documents\\dojo_projects\\cSharp\\orm_intro\\wedding_planner\\Views\\Home\\NewWedding.cshtml",
+      "TargetPath": "Views\\Home\\NewWedding.cshtml",
       "FileKind": "mvc"
     },
     {
